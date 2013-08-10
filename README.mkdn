@@ -4,7 +4,7 @@ App::Chorus - Markdown-based slidedeck server app
 
 # VERSION
 
-version 0.1.0
+version 0.2.0
 
 [Dancer](http://search.cpan.org/perldoc?Dancer) application module for `chorus`. See `chorus`'s manpage for
 details on how to use it.

@@ -55,7 +55,7 @@
    "provides" : {
       "App::Chorus" : {
          "file" : "lib/App/Chorus.pm",
-         "version" : "v0.1.0"
+         "version" : "v0.2.0"
       }
    },
    "release_status" : "stable",
@@ -71,12 +71,13 @@
          "web" : "https://github.com/yanick/chorus"
       }
    },
-   "version" : "0.1.0",
+   "version" : "0.2.0",
    "x_author_pledge" : {
       "version" : 1
    },
    "x_authority" : "cpan:YANICK",
    "x_contributors" : [
+      "Drew Taylor <drew@drewtaylor.com>",
       "Yanick Champoux <yanick@babyl.dyndns.org>"
    ]
 }

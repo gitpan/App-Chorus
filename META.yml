@@ -17,7 +17,7 @@ name: App-Chorus
 provides:
   App::Chorus:
     file: lib/App/Chorus.pm
-    version: v0.1.0
+    version: v0.2.0
 requires:
   Dancer: 0
   Dancer::Plugin::Cache::CHI: 0
@@ -36,9 +36,10 @@ resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=App-Chorus
   homepage: http://search.cpan.org/dist/App-Chorus/
   repository: https://github.com/yanick/chorus.git
-version: 0.1.0
+version: 0.2.0
 x_author_pledge:
   version: 1
 x_authority: cpan:YANICK
 x_contributors:
+  - 'Drew Taylor <drew@drewtaylor.com>'
   - 'Yanick Champoux <yanick@babyl.dyndns.org>'

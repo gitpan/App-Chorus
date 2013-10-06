@@ -1,5 +1,12 @@
 Revision history for App-Chorus
 
+0.2.1 2013-10-06
+ [BUG FIXES]
+ - Add the Mason and Cache dependencies.
+
+ [STATISTICS]
+ - code churn: 2 files changed, 17 insertions(+), 3 deletions(-)
+
 0.2.0 2013-08-10
  [BUG FIXES]
  - jquery.history.js was missing. [GH#2, Frew Taylor]

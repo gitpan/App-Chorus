@@ -3,7 +3,7 @@ BEGIN {
   $App::Chorus::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $App::Chorus::VERSION = '0.2.0';
+  $App::Chorus::VERSION = '0.2.1';
 }
 # ABSTRACT: Markdown-based slidedeck server app
 
@@ -119,7 +119,7 @@ App::Chorus - Markdown-based slidedeck server app
 
 =head1 VERSION
 
-version 0.2.0
+version 0.2.1
 
 =HEAD1 DESCRIPTION
 

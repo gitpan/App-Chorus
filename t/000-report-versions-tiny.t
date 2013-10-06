@@ -48,9 +48,11 @@ sub pmver {
     return sprintf('%-45s => %-10s%-15s%s', $module, $pmver, $wanted, "\n");
 }
 
+eval { $v .= pmver('Cache::FastMmap','any version') };
 eval { $v .= pmver('Dancer','any version') };
 eval { $v .= pmver('Dancer::Plugin::Cache::CHI','any version') };
 eval { $v .= pmver('Dancer::Plugin::WebSocket','any version') };
+eval { $v .= pmver('Dancer::Template::Mason','any version') };
 eval { $v .= pmver('File::ShareDir::Tarball','any version') };
 eval { $v .= pmver('File::Slurp','any version') };
 eval { $v .= pmver('Getopt::Long','any version') };

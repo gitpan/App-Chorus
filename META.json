@@ -4,7 +4,7 @@
       "Yanick Champoux <yanick@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300037, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -31,9 +31,11 @@
       },
       "runtime" : {
          "requires" : {
+            "Cache::FastMmap" : "0",
             "Dancer" : "0",
             "Dancer::Plugin::Cache::CHI" : "0",
             "Dancer::Plugin::WebSocket" : "0",
+            "Dancer::Template::Mason" : "0",
             "File::ShareDir::Tarball" : "0",
             "File::Slurp" : "0",
             "Getopt::Long" : "0",
@@ -55,7 +57,7 @@
    "provides" : {
       "App::Chorus" : {
          "file" : "lib/App/Chorus.pm",
-         "version" : "v0.2.0"
+         "version" : "v0.2.1"
       }
    },
    "release_status" : "stable",
@@ -71,7 +73,7 @@
          "web" : "https://github.com/yanick/chorus"
       }
    },
-   "version" : "0.2.0",
+   "version" : "0.2.1",
    "x_author_pledge" : {
       "version" : 1
    },
